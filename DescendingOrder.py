@@ -1,7 +1,6 @@
 num = 15
 def Descending_Order(num):
   stringedNum = str(num)
-  # reversedStr = stringedNum[::-1]
   listedNum = list(stringedNum)
   sortedList = sorted(listedNum)
   stringedNum = ''.join(sortedList)
