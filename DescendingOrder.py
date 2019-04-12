@@ -1,4 +1,5 @@
-num = 15
+prompt = input("Give me a loooong number> ")
+
 def Descending_Order(num):
   stringedNum = str(num)
   listedNum = list(stringedNum)
@@ -7,4 +8,4 @@ def Descending_Order(num):
   num = int(stringedNum[:: -1])
   return num
 
-print (Descending_Order(num))
+print ('Ok, here you can have it back!',Descending_Order(prompt),)
